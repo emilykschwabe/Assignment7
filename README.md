@@ -14,6 +14,8 @@ You can install the released version of Assignment7 from
 
 ``` r
 install.packages("kinship2", repos="http://R-Forge.R-project.org")
+#or
+require(kinship2)
 ```
 
 And the development version from [GitHub](https://github.com/) with:
