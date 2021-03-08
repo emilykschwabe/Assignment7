@@ -75,16 +75,42 @@
 <div class="page-header"><h1 class="hasAnchor">
 <a href="#assignment7" class="anchor"></a>Assignment7</h1></div>
 <p>The goal of Assignment7 is to describe a package that I use commonly on R. Assignmnet7 will give you insight about the package kinship2 which will create a relatedness maxtrix based off of genetic or family data.</p>
+<div id="package-title" class="section level2">
+<h2 class="hasAnchor">
+<a href="#package-title" class="anchor"></a>Package Title</h2>
+<p>The package this assignment will be exploing is “kinship2”.</p>
+</div>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
 <p>You can install the released version of Assignment7 from <a href="https://CRAN.R-project.org">CRAN</a> with:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span><span class="op">(</span><span class="st">"kinship2"</span>, repos<span class="op">=</span><span class="st">"http://R-Forge.R-project.org"</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span><span class="op">(</span><span class="st">"kinship2"</span>, repos<span class="op">=</span><span class="st">"http://R-Forge.R-project.org"</span><span class="op">)</span>
+<span class="co">#or</span>
+<span class="kw"><a href="https://rdrr.io/r/base/library.html">require</a></span><span class="op">(</span><span class="va"><a href="https://cran.r-project.org/package=kinship2">kinship2</a></span><span class="op">)</span></code></pre></div>
 <p>And the development version from <a href="https://github.com/">GitHub</a> with:</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co"># install.packages("devtools")</span>
 <span class="fu">devtools</span><span class="fu">::</span><span class="fu"><a href="https://devtools.r-lib.org//reference/remote-reexports.html">install_github</a></span><span class="op">(</span><span class="st">"cran/kinship2"</span><span class="op">)</span></code></pre></div>
+</div>
+<div id="vignette" class="section level2">
+<h2 class="hasAnchor">
+<a href="#vignette" class="anchor"></a>Vignette</h2>
+<p>A formal vignette has been created for this package has been created by Jason Sinnwell. To see the vignette please refer to the file “vignettes”.</p>
+</div>
+<div id="applications" class="section level2">
+<h2 class="hasAnchor">
+<a href="#applications" class="anchor"></a>Applications</h2>
+<p>I was unable to find a website for this package, but I made my own website for the assignment. There is not a lot of information in the website, but I successfully made a website!</p>
+</div>
+<div id="review" class="section level2">
+<h2 class="hasAnchor">
+<a href="#review" class="anchor"></a>Review</h2>
+<p>The primary purpose of this package is to analysis genetic or family relationships to create pedigree trees or kinship matrices. Pedigree trees are visual representations of inheritance of a trait or disease through several generations. A kinship matrix gives a probabilistic estimate that a random gene from a given subject is identical by descent (ibd) to a gene in the same locus from a subject. More simply put, a kinship maxtrix tells us the relatedness between individuals.</p>
+<p>I like this package becasue it has a very unique purpose. There are no other packages that can create similar outputs. This package can quickly run through thousands of individuals and produce a simple matrix of kinship. The relatedness values that this package determines can then be used to determine inbreeding rates with the addition of other statistics too.</p>
+<p>I think the matrix function is much easier to use than the pedigree funcation. I have onlt needed to use the matrix output in my project, and I dabbled in the pedigree function for fun, but it was really hard to figure out.</p>
+<p>Personally, I did not find this package very easy to use. Since this is not a widely used package, there are very little tutorials out there. The function that I ended up using in my analysis was pretty simple, so I could figure it out, but there is not a lot of additional assistance on the web.</p>
+<p>I would recommend this package to someone if they were specfically needing to generate large multi generational pedigree trees or relatedness values between many individuals.</p>
 </div>
 </div>
   </div>
